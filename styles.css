@@ -1,0 +1,21 @@
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blinking {
+    animation: blink 1s infinite;
+}
+
+#output {
+    font-size: 24px;
+    color: teal;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    /*font-family: 'Dancing Script', cursive;*/
+}
